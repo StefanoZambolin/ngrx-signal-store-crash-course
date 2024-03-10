@@ -14,7 +14,7 @@ type TodosState = {
 const initialState: TodosState = {
     todos: [],
     loading: false,
-    filter: "completed"
+    filter: "all"
 }
 
 export const TodosStore = signalStore(
